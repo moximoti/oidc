@@ -288,7 +288,7 @@ func AuthURLHandler(stateFn func() string, rp RelyingParty) http.HandlerFunc {
 
 //GenerateAndStoreCodeChallenge generates a PKCE code challenge and stores its verifier into a secure cookie
 func GenerateAndStoreCodeChallenge(w http.ResponseWriter, rp RelyingParty) (string, error) {
-	codeVerifier := uuid.New().String() + "-123456789"
+	codeVerifier := uuid.New().String() + "." + uuid.New().String()
 	if err := rp.CookieHandler().SetCookie(w, pkceCode, codeVerifier); err != nil {
 		return "", err
 	}
