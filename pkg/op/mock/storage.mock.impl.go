@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 	"errors"
-	"github.com/caos/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/oidc"
 	"testing"
 	"time"
 
@@ -11,7 +11,7 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/caos/oidc/pkg/op"
+	"github.com/moximoti/oidc/pkg/op"
 )
 
 func NewStorage(t *testing.T) op.Storage {

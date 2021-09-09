@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/utils"
 
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/caos/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/oidc"
 )
 
 func NewRemoteKeySet(client *http.Client, jwksURL string) oidc.KeySet {

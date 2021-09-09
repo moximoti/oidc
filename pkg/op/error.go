@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/caos/oidc/pkg/oidc"
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/utils"
 )
 
 const (

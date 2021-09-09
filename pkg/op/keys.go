@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/utils"
 )
 
 type KeyProvider interface {

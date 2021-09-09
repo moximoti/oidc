@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/caos/oidc/pkg/oidc"
-	"github.com/caos/oidc/pkg/op"
-	"github.com/caos/oidc/pkg/op/mock"
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/op"
+	"github.com/moximoti/oidc/pkg/op/mock"
+	"github.com/moximoti/oidc/pkg/utils"
 )
 
 //

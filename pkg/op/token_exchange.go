@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/caos/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/oidc"
 )
 
 //TokenExchange will handle the OAuth 2.0 token exchange grant ("urn:ietf:params:oauth:grant-type:token-exchange")

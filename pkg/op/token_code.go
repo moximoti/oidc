@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/caos/oidc/pkg/oidc"
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/utils"
 )
 
 //CodeExchange handles the OAuth 2.0 authorization_code grant, including

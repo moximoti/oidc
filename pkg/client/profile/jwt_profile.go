@@ -7,8 +7,8 @@ import (
 	"golang.org/x/oauth2"
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/caos/oidc/pkg/client"
-	"github.com/caos/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/client"
+	"github.com/moximoti/oidc/pkg/oidc"
 )
 
 //jwtProfileTokenSource implement the oauth2.TokenSource

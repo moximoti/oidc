@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/caos/oidc/pkg/oidc"
-	"github.com/caos/oidc/pkg/op"
-	"github.com/caos/oidc/pkg/op/mock"
+	"github.com/moximoti/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/op"
+	"github.com/moximoti/oidc/pkg/op/mock"
 )
 
 func TestDiscover(t *testing.T) {

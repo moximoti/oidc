@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/caos/oidc/example/internal/mock"
-	"github.com/caos/oidc/pkg/op"
+	"github.com/moximoti/oidc/example/internal/mock"
+	"github.com/moximoti/oidc/pkg/op"
 )
 
 func main() {

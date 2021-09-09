@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/caos/oidc/pkg/oidc"
-	"github.com/caos/oidc/pkg/op"
+	"github.com/moximoti/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/op"
 )
 
 type AuthStorage struct {

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/caos/oidc/pkg/utils"
+	"github.com/moximoti/oidc/pkg/utils"
 )
 
 type ProbesFn func(context.Context) error

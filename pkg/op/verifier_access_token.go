@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/caos/oidc/pkg/oidc"
+	"github.com/moximoti/oidc/pkg/oidc"
 )
 
 type AccessTokenVerifier interface {
